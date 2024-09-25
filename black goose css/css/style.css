@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f5e6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+.times {
+    font-family: "Times New Roman"
+}
+
+.linje {
+    border: none;
+    height: 2px; 
+    background-color: lightblue; 
+}
+
+:root {
+    --primary-color: #ea6b15;
+    --secondary-color: #000000; 
+}
+
+.orange-headline {
+    color: var(--primary-color)  
+}
